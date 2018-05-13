@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+dist/
+zuzuxia.zip
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+zzxProject
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

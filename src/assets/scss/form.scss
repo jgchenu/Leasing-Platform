@@ -1,0 +1,197 @@
+    .loan {
+        padding-bottom: 30px;
+        .banner {
+            position: relative !important;
+        }
+        .form {
+            margin-top: 60px; //物品名称，物品押金,租用日期
+            .good-name,
+            .good-deposit,
+            .good-rent,
+            .good-date,
+            .good-place,
+            .good-img,
+            .good-selects,
+            .good-price {
+                height: 50px;
+                border: none;
+                font-size: 30px;
+                color: $lightBlue;
+                line-height: 60px;
+                padding-left: 40px;
+                margin-top: 40px;
+                font-weight: bolder;
+                input {
+                    margin-left: 20px;
+                    width: 450px;
+                    border: 0;
+                    border-radius: 0;
+                    outline: none;
+                    font-size: 30px;
+                    border-bottom: 1px solid $lightBlue;
+                    -webkit-appearance: normal;
+                }
+                select {
+                    background-color: #fff;
+                    color: #aaaaaa;
+                    option {
+                        background-color: #fff;
+                        color: #aaaaaa;
+                    }
+                }
+            } //图片上传
+            .good-img {
+                position: relative;
+                #file {
+                    display: none;
+                }
+                .file-image,
+                .cancel {
+                    position: absolute;
+                    left: 260px;
+                    top: -20px;
+                    width: 100px;
+                    height: 100px;
+                }
+                .orginImage {
+                    padding: 0;
+                    margin-bottom: 0;
+                    width: 600px;
+                    height: 600px;
+                }
+                span {
+                    color: $lightBlue;
+                }
+                .icon-add_pic {
+                    font-size: 60px;
+                    margin-left: 20px;
+                }
+                .cancel {
+                    font-size: 30px;
+                    left: 380px;
+                    top: -50px;
+                    width: 40px;
+                    height: 40px;
+                    -webkit-tap-highlight-color: transparent;
+                    -webkit-touch-callout: none;
+                    -webkit-user-select: none;
+                    user-select: none;
+                }
+            } //物品描述
+            .good-desc {
+                padding-left: 20px;
+                margin-top: 40px;
+                textarea {
+                    outline: none;
+                    border: 1px solid $lightBlue;
+                    border-radius: 18px;
+                    font-size: 30px;
+                    margin-left: 20px;
+                    width: 660px;
+                    -webkit-appearance: none;
+                }
+            } //物品押金，物品租金
+            .good-deposit,
+            .good-rent,
+            .good-place,
+            .good-price {
+                margin-top: 30px;
+                input {
+                    width: 120px;
+                }
+                select {
+                    color: #000000;
+                    display: inline-block;
+                    width: 140px;
+                    height: 50px;
+                    font-size: 30px;
+                    border: 1px solid #dddddd;
+                    outline: none;
+                    background-color: #fff;
+                    option {
+                        width: 100px;
+                        display: inline-block;
+                        background-color: #fff;
+                    }
+                }
+            }
+            .good-rent {
+                height: 120px;
+                #first {
+                    width: 30px;
+                    height: 30px;
+                    background-color: $lightBlue;
+                    border-radius: 50%;
+                }
+                #second {
+                    width: 30px;
+                    height: 30px;
+                    background-color: $lightBlue;
+                    border-radius: 50%;
+                    margin-left: 99px;
+                    position: relative;
+                    top: 4px;
+                }
+            }
+            .good-place {
+                select {
+                    width: auto;
+                }
+            }
+            .good-date {
+                label {
+                    position: relative;
+                    top: 4px;
+                }
+                input {
+                    margin: 0 10px;
+                    color: #000000;
+                    display: inline-block;
+                    width: 220px;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 26px;
+                    border: 1px solid #dddddd;
+                    outline: none;
+                    background-color: #fff;
+                    option {
+                        display: inline-block;
+                        background-color: #fff;
+                    }
+                }
+            }
+            .good-selects {
+                margin-bottom: 60px;
+                span {
+                    color: $lightBlue;
+                    font-weight: bolder;
+                }
+                select.types {
+                    color: #000000;
+                    margin-left: 70px;
+                    display: inline-block;
+                    width: auto;
+                    height: 60px;
+                    font-size: 30px;
+                    border: 1px solid #dddddd;
+                    outline: none;
+                    background-color: #fff;
+                    option {
+                        width: 100px;
+                        display: inline-block;
+                        background-color: #fff;
+                        color: #000000;
+                    }
+                }
+            }
+            .good-price {
+                input {
+                    width: 300px;
+                }
+            }
+        }
+        .submit {
+            display: block;
+            margin: 90px auto;
+        }
+    }

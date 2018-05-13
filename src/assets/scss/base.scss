@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    width: 100%;
+    body {
+        input:disabled,
+        textarea:disabled,
+        select:disabled,
+        option:disabled {
+            background-color: #ffffff;
+        }
+        h1,
+        h2,
+        h3 {
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        #app {
+            font-family: '微软雅黑', 'Avenir', Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: #2c3e50;
+            margin-top: 60px;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    ul {
+        list-style: none;
+    }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .4s
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.select-fade-enter-active,
+.select-fade-leave-active {
+    transition: all .4s;
+}
+
+.select-fade-enter,
+.select-fade-leave-to {
+    transform: translate(0, -4rem);
+    opacity: 0;
+}
+
+.mint-msgbox {
+    width: 500px;
+    overflow: scroll;
+     &::-webkit-scrollbar {
+        display: none
+    }
+    .mint-msgbox-header {
+        .mint-msgbox-title {
+            font-size: 30px;
+        }
+    }
+    .mint-msgbox-content {
+        width: 400px;
+        margin: 0 auto;
+        padding: 40px 0;
+        font-size: 30px;
+        overflow: scroll;
+        height: 80px;
+    }
+    .mint-msgbox-btns {
+        padding: 12px 0;
+        .mint-msgbox-btn {
+            font-size: 30px !important;
+        }
+    }
+}
+
+$lightBlue:#87ceeb;
